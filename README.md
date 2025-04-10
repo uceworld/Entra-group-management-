@@ -1,6 +1,6 @@
 # Microsoft Graph Group Member and Owner Exporter
 
-This PowerShell script fetches all Microsoft 365 groups, along with their members and owners, and exports the data into a CSV file. The script utilizes the Microsoft Graph API to retrieve information about groups, users, devices, and service principals in an organization.
+This PowerShell script fetches all Microsoft Entra groups, along with their members and owners, and exports the data into a CSV file. The script utilizes the Microsoft Graph API to retrieve information about groups, users, devices, and service principals in an organization.
 
 ## Description
 
@@ -37,7 +37,7 @@ The data is exported to a CSV file for further analysis or reporting, and error 
 3. Download or clone this repository to your local machine.
 4. Run the script:
     ```powershell
-    .\Export-GroupMembersAndOwners.ps1
+    .\ExportGroupMembersAndOwners.ps1
     ```
     - The script will prompt for authentication if you're not already signed in to Microsoft Graph.
     - It will fetch groups, retrieve members and owners, and export the data to `AllGroupObjects3.csv`.
